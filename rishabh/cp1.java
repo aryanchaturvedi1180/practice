@@ -9,11 +9,7 @@ public class cp1 {
         }
         int a=0;
         int b=1;
-        while(b<sum){
-            int temp=b;
-            b=a+b;
-            a=temp;
-        }
+        
         if(b==sum){
         System.out.println(input+sum);}
         else{
